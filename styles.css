@@ -1,5 +1,30 @@
+.body {
+    display: flex;
+    flex-direction: column;
+}
+
 .header {
 
+    display: flex;
+    justify-content: space-between;
+    background-color: #1f2937;
+    align-items: center;
+}
+
+ul {
+    display: flex;
+    gap: 20px;
+
+}
+
+li {
+    list-style-type: none;
+    color: #e5e7eb;
+}
+
+.logo {
+    width: 100px;
+    height: auto;
 }
 
 .footer {
@@ -19,5 +44,5 @@
 }
 
 .CTA-section {
-    
+
 }
