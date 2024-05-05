@@ -1,6 +1,7 @@
 .body {
     display: flex;
     flex-direction: column;
+    flex: 1;
 }
 
 .header {
@@ -40,7 +41,27 @@ li {
 }
 
 .middle-box-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 
+}
+
+.info-box-container {
+    display: flex;
+    gap: 20px;
+}
+
+.info-box {
+    width: 100px;
+    height: auto;
+
+}
+
+.info-image {
+    max-width: 100%;
+
+    
 }
 
 .testimonial-section {
