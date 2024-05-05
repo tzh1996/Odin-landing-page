@@ -27,12 +27,16 @@ li {
     height: auto;
 }
 
-.footer {
-
-}
 
 .top-section {
+    display: flex;
+    background-color: #1f2937;
+}
 
+.left-column {
+    display: flex;
+    flex-direction: column;
+    color: #e5e7eb;
 }
 
 .middle-box-section {
@@ -44,5 +48,9 @@ li {
 }
 
 .CTA-section {
+
+}
+
+.footer {
 
 }
